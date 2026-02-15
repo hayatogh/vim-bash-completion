@@ -56,7 +56,7 @@ return commands which start with "git", and
     bash#complete('git ')
 
 returns git subcommands.
-*substitute()* can be used. >
+|substitute()| can be used. >
 
     function MakeCommandCompletion(ArgLead, CmdLine, CursorPos)
         let l:command = substitute(a:CmdLine, '^\a\+', 'make', '')
